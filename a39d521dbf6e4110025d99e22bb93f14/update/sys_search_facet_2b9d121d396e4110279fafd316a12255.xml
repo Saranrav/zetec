@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_facet">
+    <sys_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_facet_name>x_742047_zetec_performance_review.state</ais_facet_name>
+        <label>Status</label>
+        <name>Status</name>
+        <option_limit>10</option_limit>
+        <order>0</order>
+        <search_context_config display_value="zetec - Performance Review Search App">679d121d686e41108bc3819fd69102c3</search_context_config>
+        <sys_class_name>sys_search_facet</sys_class_name>
+        <sys_created_by>Joe.tran</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:31</sys_created_on>
+        <sys_id>2b9d121d396e4110279fafd316a12255</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_742047_zetec_performance_review.state</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_search_facet_2b9d121d396e4110279fafd316a12255</sys_update_name>
+        <sys_updated_by>Joe.tran</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:31</sys_updated_on>
+    </sys_search_facet>
+</record_update>

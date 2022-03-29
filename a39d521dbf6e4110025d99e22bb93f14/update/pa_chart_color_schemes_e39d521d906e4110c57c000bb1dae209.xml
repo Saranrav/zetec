@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_chart_color_schemes">
+    <pa_chart_color_schemes action="INSERT_OR_UPDATE">
+        <color_1 display_value="#E1DCD6">679d521d576e411076846be36f4da409</color_1>
+        <color_10/>
+        <color_11/>
+        <color_12/>
+        <color_13/>
+        <color_14/>
+        <color_15/>
+        <color_16/>
+        <color_17/>
+        <color_18/>
+        <color_19/>
+        <color_2 display_value="#F04C5C">279d521d2f6e4110ad9c0e9c1ab4de09</color_2>
+        <color_20/>
+        <color_21/>
+        <color_22/>
+        <color_23/>
+        <color_24/>
+        <color_25/>
+        <color_26/>
+        <color_27/>
+        <color_28/>
+        <color_29/>
+        <color_3 display_value="#E3F0FF">a79d521da06e41108c93df8e8eab9109</color_3>
+        <color_30/>
+        <color_31/>
+        <color_32/>
+        <color_4 display_value="#7BA4DB">2b9d521def6e41103b27815e5e01a309</color_4>
+        <color_5 display_value="#266FEB">e79d521d2e6e411029d072a7d92eb009</color_5>
+        <color_6/>
+        <color_7/>
+        <color_8/>
+        <color_9/>
+        <description/>
+        <name>Performance Review Color scheme</name>
+        <sys_class_name>pa_chart_color_schemes</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e39d521d906e4110c57c000bb1dae209</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Color scheme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>pa_chart_color_schemes_e39d521d906e4110c57c000bb1dae209</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:35</sys_updated_on>
+    </pa_chart_color_schemes>
+    <sys_translated_text action="delete_multiple" query="documentkey=e39d521d906e4110c57c000bb1dae209"/>
+</record_update>

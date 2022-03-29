@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_color">
+    <sys_report_color action="INSERT_OR_UPDATE">
+        <color>#C9E0CA</color>
+        <display>background-color:#C9E0CA</display>
+        <name>#C9E0CA</name>
+        <sys_class_name>sys_report_color</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:08</sys_created_on>
+        <sys_id>ab9d121d026e4110f442d0fa654bb9d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>#C9E0CA</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_report_color_ab9d121d026e4110f442d0fa654bb9d2</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:08</sys_updated_on>
+        <themeable_color/>
+    </sys_report_color>
+</record_update>

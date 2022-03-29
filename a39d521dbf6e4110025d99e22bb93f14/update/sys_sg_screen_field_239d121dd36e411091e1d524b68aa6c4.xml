@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>employee_confirmation</data_item_field_name>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>20</order>
+        <record_id_field/>
+        <screen display_value="Details">af9d121d9d6e41107c8530529ebd05c4</screen>
+        <screen_data_item_table>x_742047_zetec_performance_review</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:30</sys_created_on>
+        <sys_id>239d121dd36e411091e1d524b68aa6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employee_confirmation</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_sg_screen_field_239d121dd36e411091e1d524b68aa6c4</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:30</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+</record_update>

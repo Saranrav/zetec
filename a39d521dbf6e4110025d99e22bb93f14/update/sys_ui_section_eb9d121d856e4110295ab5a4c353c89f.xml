@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notes" section_id="eb9d121d856e4110295ab5a4c353c89f" sys_domain="global" table="x_742047_zetec_performance_review" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_feedback</element>
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:47</sys_created_on>
+            <sys_id>279d121ddd6e4110092063ab2b13f798</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_742047_zetec_performance_review" sys_domain="global" view="Default view">eb9d121d856e4110295ab5a4c353c89f</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:47</sys_created_on>
+            <sys_id>e39d121dfa6e4110c0f512c558d0bf98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_742047_zetec_performance_review" sys_domain="global" view="Default view">eb9d121d856e4110295ab5a4c353c89f</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:47</sys_created_on>
+            <sys_id>a39d121d4c6e4110e691fa95b7719298</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_742047_zetec_performance_review" sys_domain="global" view="Default view">eb9d121d856e4110295ab5a4c353c89f</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>3</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:47</sys_created_on>
+            <sys_id>679d121dd76e411092b37b2faeeefd98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">eb9d121d7d6e4110144638843497b398</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_742047_zetec_performance_review" sys_domain="global" view="Default view">eb9d121d856e4110295ab5a4c353c89f</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:47</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>x_742047_zetec_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb9d121d856e4110295ab5a4c353c89f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_742047_zetec_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+            <sys_update_name>sys_ui_section_eb9d121d856e4110295ab5a4c353c89f</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

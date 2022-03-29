@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_742047_zetec.admin" name="x_742047_zetec.admin">2f9d521d746e4110e035ed031dbcda13</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:25</sys_created_on>
+        <sys_id>2b9d121dab6e4110dd517319973905f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2f9d521d746e4110e035ed031dbcda13</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_embedded_help_role_2b9d121dab6e4110dd517319973905f7</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:25</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

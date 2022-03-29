@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="zetec  Portal Config">239d521d186e4110c5ffef23d2b44d0d</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent/>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Historical default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Employee Home">639d121d6b6e41109d25b1da1ca6cf88</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Historical">ef9d121d8e6e4110e8657491db97d487</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e39d121d866e41104dd1158fbf776cb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Historical default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_screen_e39d121d866e41104dd1158fbf776cb7</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:32</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=e39d121d866e41104dd1158fbf776cb7"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="zetec  Portal Config">239d521d186e4110c5ffef23d2b44d0d</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Historical</name>
+        <optional_parameters/>
+        <order>199</order>
+        <parent_macroponent/>
+        <parent_macroponent_composition_element_id>ckhpbffsubaaaacclddggiiccnjjrgashhaa</parent_macroponent_composition_element_id>
+        <route_type>historical</route_type>
+        <screen_type display_value="Historical">ab9d121deb6e41102a1a3049881e0c7e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:25</sys_created_on>
+        <sys_id>e79d121d5a6e41105fea7c9ba520d67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Historical</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_app_route_e79d121d5a6e41105fea7c9ba520d67e</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:25</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e79d121d5a6e41105fea7c9ba520d67e"/>
+</record_update>

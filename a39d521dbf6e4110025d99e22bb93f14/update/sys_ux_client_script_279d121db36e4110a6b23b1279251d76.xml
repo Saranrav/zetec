@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">639d121dc86e411035fcea22e96e618e</macroponent>
+        <name>setActiveSidebarTab</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    const { name } = event.payload;
+    const { sidebarActiveTab } = api.state;
+    if (name != sidebarActiveTab) {
+        api.setState("sidebarActiveTab", name);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:18</sys_created_on>
+        <sys_id>279d121db36e4110a6b23b1279251d76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setActiveSidebarTab</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_client_script_279d121db36e4110a6b23b1279251d76</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:18</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

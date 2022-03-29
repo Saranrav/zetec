@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="List">6b9d121d7e6e4110320f7770f50cb774</macroponent>
+        <name>navigate to record</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {table,sys_id} = event.payload;
+    console.log('table '+table);
+    helpers.navigate.to('record', {
+        table: table,sysId: sys_id
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:19</sys_created_on>
+        <sys_id>2b9d121df26e4110753e4a154e852674</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>navigate to record</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_client_script_2b9d121df26e4110753e4a154e852674</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:19</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

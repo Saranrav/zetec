@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4488d9a97d20205016143af8aac3fa12</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>a39d521dbf6e4110025d99e22bb93f14</scope_name>
+        <serialized_content>{"FlowDesigner:FD4488d9a97d20205016143af8aac3fa12":{"$COCollectionField":["Boolean"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD4488d9a97d20205016143af8aac3fa12.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Reached Prompt Date\",\"mandatory\":\"false\",\"child_name\":\"variable_child0\",\"uiUniqueId\":\"fb5f8d5a-3079-4c08-8449-f5d7e486cb21\",\"uiTypeLabel\":\"Array.Boolean\",\"co_type_name\":\"FD4488d9a97d20205016143af8aac3fa12\",\"child_label\":\"Reached Prompt Date_child0\",\"child_type_label\":\"True/False\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.boolean\",\"child_defaultValue\":\"\",\"child_type\":\"boolean\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ec707c3f-32f5-44fa-9b38-563129ce0aba\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a39d521de26e4110245414ad1d92ce04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD4488d9a97d20205016143af8aac3fa12</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_complex_object_a39d521de26e4110245414ad1d92ce04</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:54</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

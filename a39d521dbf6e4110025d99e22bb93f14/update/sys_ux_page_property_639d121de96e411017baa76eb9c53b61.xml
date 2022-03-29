@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices>null</choices>
+        <description>null</description>
+        <name>searchEvamDefinitionId</name>
+        <page display_value="zetec  Portal">af9d121d866e411091d739be7b237461</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>terri.welch</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>639d121de96e411017baa76eb9c53b61</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>searchEvamDefinitionId</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy>null</sys_policy>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_page_property_639d121de96e411017baa76eb9c53b61</sys_update_name>
+        <sys_updated_by>terri.welch</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:34</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_742047_zetec.62e6174ab8686010f87747c08fd4222f.root.searchEvamDefinitionId</unique_name>
+        <value>a39d121d6d6e41105a3d151d6dbd7671</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=639d121de96e411017baa76eb9c53b61"/>
+</record_update>

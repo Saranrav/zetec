@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Performance Review Search Template Results</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:15</sys_created_on>
+        <sys_id>2b9d121d636e4110cb4b09ee06f0706f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Search Template Results</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_2b9d121d636e4110cb4b09ee06f0706f</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:15</sys_updated_on>
+        <template>{&#13;
+    "component": "sn-search-result-evam-card",&#13;
+    "staticValues": {&#13;
+        &#13;
+        "imageURL": {&#13;
+            "key": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png"&#13;
+        },&#13;
+                     &#13;
+        &#13;
+        "imageType": {&#13;
+            "translatable": false,&#13;
+            "key": "image"&#13;
+        },&#13;
+&#13;
+        "detailLabelType": {&#13;
+            "translatable": true,&#13;
+            "key": "inline"&#13;
+        },&#13;
+        &#13;
+        "detailLabelOne": {&#13;
+			"translatable": true,&#13;
+			"key": "Requested by:"&#13;
+		}&#13;
+        &#13;
+&#13;
+    },&#13;
+    "mappings": {&#13;
+        "textHeaderLabelOne": "state",&#13;
+        "textHeaderLabelTwo": "number",&#13;
+        "detailValueOne": "manager"&#13;
+&#13;
+    },&#13;
+    "actionMappings": {&#13;
+        "clickAction": "pr_click_action"&#13;
+    }&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

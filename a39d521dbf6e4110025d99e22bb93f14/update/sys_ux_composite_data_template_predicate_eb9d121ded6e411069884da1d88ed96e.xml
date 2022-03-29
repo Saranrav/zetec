@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="v_search_genius_result">model=7f2b1298b54e6010f877ba1a8373bdba^EQ<item endquery="false" field="model" goto="false" newquery="false" operator="=" or="false" value="7f2b1298b54e6010f877ba1a8373bdba"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.employee,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.manager,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.number,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.review_period,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.evaluation_due,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.state,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.sys_id,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.table,columns.var__m_sys_search_genius_result_field_1cce546ca1bd2010f8777e9268089acd.evaluation_sent_out</field_list>
+        <name>Performance Review Genius Config</name>
+        <order>100</order>
+        <predicate_bundle display_value="Performance Review AI Portal Search Bundle">ef9d121de16e4110cf308a308abe166f</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:17</sys_created_on>
+        <sys_id>eb9d121ded6e411069884da1d88ed96e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review Genius Config</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_eb9d121ded6e411069884da1d88ed96e</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:17</sys_updated_on>
+        <table>v_search_genius_result</table>
+        <ux_template display_value="Performance Review Genius Result View">e39d121da76e4110ba550b4ccdf0b66f</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

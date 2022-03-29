@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Work Traits" section_id="279d121dd06e411023740592ce3a30a1" sys_domain="global" table="x_742047_zetec_performance_review" version="3" view="manager_review_x_742047_zetec">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>productivity</element>
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:54</sys_created_on>
+            <sys_id>639d121dc96e4110ce7c7b4e44288799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_742047_zetec_performance_review" sys_domain="global" view="a79d121d0d6e4110f7e646430600b5a1">279d121dd06e411023740592ce3a30a1</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dependability</element>
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:54</sys_created_on>
+            <sys_id>e39d121d856e4110f54d01b272494699</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_742047_zetec_performance_review" sys_domain="global" view="a79d121d0d6e4110f7e646430600b5a1">279d121dd06e411023740592ce3a30a1</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>creativity</element>
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:54</sys_created_on>
+            <sys_id>a39d121d296e4110454c8acd3de69099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_742047_zetec_performance_review" sys_domain="global" view="a79d121d0d6e4110f7e646430600b5a1">279d121dd06e411023740592ce3a30a1</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:54</sys_created_on>
+            <sys_id>279d121d6f6e4110ba405001108a3199</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_742047_zetec_performance_review" sys_domain="global" view="a79d121d0d6e4110f7e646430600b5a1">279d121dd06e411023740592ce3a30a1</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>takes_initiative</element>
+            <position>4</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:54</sys_created_on>
+            <sys_id>239d121d876e41101e75e9af9f960999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_742047_zetec_performance_review" sys_domain="global" view="a79d121d0d6e4110f7e646430600b5a1">279d121dd06e411023740592ce3a30a1</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>honesty</element>
+            <position>5</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:54</sys_created_on>
+            <sys_id>ef9d121d466e4110fbbe0b2a9656e098</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Work Traits" display_value="Work Traits" name="x_742047_zetec_performance_review" sys_domain="global" view="a79d121d0d6e4110f7e646430600b5a1">279d121dd06e411023740592ce3a30a1</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Work Traits</caption>
+            <header>false</header>
+            <name>x_742047_zetec_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:01:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>279d121dd06e411023740592ce3a30a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_742047_zetec_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+            <sys_update_name>sys_ui_section_279d121dd06e411023740592ce3a30a1</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Manager Review (x_742047_zetec )" name="manager_review_x_742047_zetec">a79d121d0d6e4110f7e646430600b5a1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

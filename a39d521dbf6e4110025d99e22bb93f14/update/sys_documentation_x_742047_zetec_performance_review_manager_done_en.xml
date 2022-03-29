@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="manager_done" label="How has your manager helped you? What can they do differently?" language="en" table="x_742047_zetec_performance_review">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>manager_done</element>
+            <help/>
+            <hint/>
+            <label>How has your manager helped you? What can they do differently?</label>
+            <language>en</language>
+            <name>x_742047_zetec_performance_review</name>
+            <plural>How has your manager helped you? What can they do differently?</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id>b39d521d876e41108c46ca280cbb35aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>How has your manager helped you? What can they do differently?</sys_name>
+            <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+            <sys_update_name>sys_documentation_x_742047_zetec_performance_review_manager_done_en</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:01:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

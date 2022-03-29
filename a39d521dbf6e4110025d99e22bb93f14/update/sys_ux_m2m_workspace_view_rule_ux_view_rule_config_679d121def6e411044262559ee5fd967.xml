@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_view_rule_ux_view_rule_config">
+    <sys_ux_m2m_workspace_view_rule_ux_view_rule_config action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:21</sys_created_on>
+        <sys_id>679d121def6e411044262559ee5fd967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Performance Review user Record.</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_view_rule_ux_view_rule_config_679d121def6e411044262559ee5fd967</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:21</sys_updated_on>
+        <view_rules_configuration display_value="Performance Review View Rules">a79d121dc36e4110bb560f4957bd2767</view_rules_configuration>
+        <workspace_view_rule display_value="Performance Review user Record">679d521d2c6e4110bb14d2c545fd7b08</workspace_view_rule>
+    </sys_ux_m2m_workspace_view_rule_ux_view_rule_config>
+</record_update>

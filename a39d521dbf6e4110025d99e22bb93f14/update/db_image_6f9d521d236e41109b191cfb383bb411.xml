@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>ef9d521da76e4110ae8208451577e011</image>
+        <name>x_742047_zetec.04_Performance_Form_Page_Header.svg</name>
+        <size_bytes>1898</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:34</sys_created_on>
+        <sys_id>6f9d521d236e41109b191cfb383bb411</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_742047_zetec.04_Performance_Form_Page_Header.svg</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>db_image_6f9d521d236e41109b191cfb383bb411</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:34</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>1649affcf55a083e0c876a52b023bed60ce568e40cee086d7bd68900b6047060</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1898</size_bytes>
+        <size_compressed>539</size_compressed>
+        <state>available</state>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:34</sys_created_on>
+        <sys_id>ef9d521da76e4110ae8208451577e011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:34</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>6f9d521d236e41109b191cfb383bb411</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="ef9d521da76e4110ae8208451577e011">ef9d521da76e4110ae8208451577e011</sys_attachment>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:34</sys_created_on>
+        <sys_id>239d521d8d6e41109b83f6e84803ff12</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>vVXbktowDP0VT/pcYcnyjW72oZ/SYCDTLGFCZhP+vnII0O4UeNjLUxLbOTpHOpKfDq8bNb40u0NZbPt+v1wshmGAwUDbbRaktV7IiUIN9arflgVHBvQUC7VN9WbblwVpAh+JC/Vap+FnO5aFVlqdD6rL/vNTl6peyb4xAaKVP44C6CBEh5cALoJnj1d8tDafMIU69McmlcW6bprlN3JunX4ViysqWQMcCCdYJAM22ngb13uIcvwhLLoAGjVNsNEDRUN32GoGsjo8hGViYMoEM1sNGIK9AxsRjLX2JmxT75IasSwCkJHoR3klAm2zwpEk5xZMyMyPlKsIpA3/i7Zrd+nHoe/a30mQo0ms58/vL3WfuqaWxxIvixPXpdmPOX5Vd1WTVDVmBm7SUokwQmDvfaG66/ojBagNeM0nDSxO0dHMGhicN2bWcN75DA0Th8k+WYWky5nAt1WsNVe2eoMhGbfR/QcCGXxAfIORcFWt3Lsw3qV+3zbHqQb7tt71Mg0QPWjvFVoGbYI0sgHEqKITJzlFQazmnUJy4JxTxhsI7NWpoeUh3ehITdaOH8jz3ECBwE7ZyP1jKVO8M0Ukd1bbeNN9f9ceHUQXTjmfxdPt2iez1uv1R5guJzjYiKfIl1HzBYGllDJd/CxZJlNg/pLIJ9NcDH6+Cz4/MDst6Y08Sz7P308KnK/Q5z9X3O8wagcAAA==</data>
+        <length>708</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="ef9d521da76e4110ae8208451577e011">ef9d521da76e4110ae8208451577e011</sys_attachment>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:34</sys_created_on>
+        <sys_id>af9d521d666e4110e601c1ba22bba311</sys_id>
+    </sys_attachment_doc>
+</record_update>

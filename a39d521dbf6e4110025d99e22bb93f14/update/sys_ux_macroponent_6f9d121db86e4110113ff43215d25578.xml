@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "container_3",
+      "elementLabel" : "Container 3",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "search_input_1",
+          "elementLabel" : "Search input 1",
+          "propertyValues" : {
+            "searchTerm" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "searchTerm" ],
+                "category" : "props"
+              }
+            },
+            "searchContextConfigId" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "searchContextConfigId" ],
+                "category" : "props"
+              }
+            },
+            "placeholder" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "search",
+                "comment" : ""
+              }
+            },
+            "placement" : {
+              "type" : "JSON_LITERAL",
+              "value" : "body"
+            },
+            "disableAutocomplete" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "size" : {
+              "type" : "JSON_LITERAL",
+              "value" : "lg"
+            }
+          },
+          "eventMappings" : [ {
+            "eventMappingId" : "ckjypwfjjzaaaabbdddgghhwccggbhnjfjj",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_search_combobox.SN_SEARCH_COMBOBOX#SEARCH_EXECUTED",
+            "sourceEventDefinition" : {
+              "apiName" : "sn_search_combobox.SN_SEARCH_COMBOBOX#SEARCH_EXECUTED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "a39d121d666e4110f428893d90ce3a75"
+              },
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "ckjypwfjjzaaaabbeddgghhwwebiqtni",
+              "type" : "CLIENT_SCRIPT"
+            }, {
+              "broker" : null,
+              "clientScript" : null,
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : {
+                "dataBrokerId" : "0cac8b3073ad101052c7d5fdbdf6a78a",
+                "operationName" : "REFRESH",
+                "parentResourceId" : "search_evam_data_resource_1",
+                "payload" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                }
+              },
+              "targetId" : "ckjypwmijjaaaabbfddgghhwmivgffneaa",
+              "type" : "DATABROKER_OP"
+            } ]
+          } ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "ce26d6793802478648556dc1f88fe020",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "padding" : "1rem"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Sidebar 1","rules":{"grid-area":"sidebar1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 2","rules":{"grid-area":"sidebar2"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"3fr 6fr 3fr","grid-template-areas":"\"sidebar1 main sidebar2\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "6da9358153071010e6bcddeeff7b1287",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%",
+        "background-color" : "#e1dcd6"
+      }
+    }, {
+      "elementId" : "container_6",
+      "elementLabel" : "Container 6",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "breadcrumbs_1",
+          "elementLabel" : "Breadcrumbs 1",
+          "propertyValues" : {
+            "items" : {
+              "type" : "LIST_CONTAINER",
+              "container" : [ {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Home",
+                      "comment" : ""
+                    }
+                  },
+                  "href" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : "/x/742047/x_742047_zetec-pr/portal/home"
+                  }
+                }
+              }, {
+                "type" : "MAP_CONTAINER",
+                "container" : {
+                  "label" : {
+                    "type" : "TRANSLATION_LITERAL",
+                    "value" : {
+                      "message" : "Search",
+                      "comment" : ""
+                    }
+                  }
+                }
+              } ]
+            },
+            "delimiter" : {
+              "type" : "JSON_LITERAL",
+              "value" : "chevron"
+            },
+            "overflow" : {
+              "type" : "JSON_LITERAL",
+              "value" : "collapse"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "9c2e48402c6c25d281faeb20637f6106",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "background-color" : "#f6f7f7"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Sidebar 1","rules":{"grid-area":"sidebar1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 2","rules":{"grid-area":"sidebar2"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr minmax(300px, 6fr) 1fr","grid-template-areas":"\"sidebar1 main sidebar2\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "6da9358153071010e6bcddeeff7b1287",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%",
+        "padding" : "2rem 0px 2rem 0px"
+      }
+    }, {
+      "elementId" : "container_7",
+      "elementLabel" : "Container 7",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "container_8",
+          "elementLabel" : "Container 8",
+          "propertyValues" : { },
+          "eventMappings" : [ ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "search_facets_1",
+              "elementLabel" : "Search facets 1",
+              "propertyValues" : {
+                "facets" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "search_evam_data_resource_1", "searchMetadata", "searchFacets" ]
+                  }
+                },
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "message" : "Filters",
+                    "comment" : ""
+                  }
+                },
+                "selectedOptions" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "search_evam_data_resource_1", "searchMetadata", "appliedFacetFilters" ]
+                  }
+                },
+                "searchContextConfigId" : {
+                  "type" : "CONTEXT_BINDING",
+                  "binding" : {
+                    "address" : [ "searchContextConfigId" ],
+                    "category" : "props"
+                  }
+                },
+                "searchTerm" : {
+                  "type" : "CONTEXT_BINDING",
+                  "binding" : {
+                    "address" : [ "searchTerm" ],
+                    "category" : "props"
+                  }
+                },
+                "size" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "lg"
+                }
+              },
+              "eventMappings" : [ {
+                "eventMappingId" : "ckjyqrqeeeeaaaaccddddggiihhoajjhhomah",
+                "isConfiguration" : false,
+                "offRowStorageId" : null,
+                "sourceEventApiName" : "sn_search_facets.SN_SEARCH_FACETS#SELECTIONS_UPDATED",
+                "sourceEventDefinition" : {
+                  "apiName" : "sn_search_facets.SN_SEARCH_FACETS#SELECTIONS_UPDATED",
+                  "id" : null,
+                  "type" : "UXEVENT"
+                },
+                "sourceEventSysId" : null,
+                "targets" : [ {
+                  "broker" : null,
+                  "clientScript" : {
+                    "sysId" : "eb9d121d546e41102c7f073369b25a72"
+                  },
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : null,
+                  "targetId" : "ckjyqrqeeeeaaaacceeddggiihhizehtaauii",
+                  "type" : "CLIENT_SCRIPT"
+                } ]
+              } ],
+              "slot" : "Sidebar 1",
+              "definition" : {
+                "id" : "f87c8f9a2b17510491d16e97103e1362",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "background-color" : "#fff"
+              }
+            }, {
+              "elementId" : "search_results_1",
+              "elementLabel" : "Search results 1",
+              "propertyValues" : {
+                "isLoading" : {
+                  "type" : "STATE_BINDING",
+                  "binding" : {
+                    "address" : [ "loading" ]
+                  }
+                },
+                "searchResultMetadata" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "search_evam_data_resource_1", "searchMetadata", "searchResultMetadata" ]
+                  }
+                },
+                "geniusResults" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "search_genius_transform_1", "output" ]
+                  }
+                },
+                "searchResults" : {
+                  "type" : "DATA_OUTPUT_BINDING",
+                  "binding" : {
+                    "address" : [ "pr_search_evam_transform_1", "output" ]
+                  }
+                },
+                "searchContextConfigId" : {
+                  "type" : "CONTEXT_BINDING",
+                  "binding" : {
+                    "address" : [ "searchContextConfigId" ],
+                    "category" : "props"
+                  }
+                },
+                "daClientActionContract" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                }
+              },
+              "eventMappings" : [ {
+                "eventMappingId" : "ckjyrbbaapyaaaaeewddggiihhkccjjbbxtaw",
+                "isConfiguration" : false,
+                "offRowStorageId" : null,
+                "sourceEventApiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#DECLARATIVE_ACTION",
+                "sourceEventDefinition" : {
+                  "apiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#DECLARATIVE_ACTION",
+                  "id" : null,
+                  "type" : "UXEVENT"
+                },
+                "sourceEventSysId" : null,
+                "targets" : [ {
+                  "broker" : null,
+                  "clientScript" : {
+                    "sysId" : "2b9d121d4d6e4110031bdb665304fd79"
+                  },
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : null,
+                  "targetId" : "ckjyrbbaapzaaaaeexddggiihhtdueenyj",
+                  "type" : "CLIENT_SCRIPT"
+                } ]
+              }, {
+                "eventMappingId" : "ckjyraaijjwaaaaeeuddggiihheesvddpgxs",
+                "isConfiguration" : false,
+                "offRowStorageId" : null,
+                "sourceEventApiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#SEARCH_EXECUTED",
+                "sourceEventDefinition" : {
+                  "apiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#SEARCH_EXECUTED",
+                  "id" : null,
+                  "type" : "UXEVENT"
+                },
+                "sourceEventSysId" : null,
+                "targets" : [ {
+                  "broker" : null,
+                  "clientScript" : {
+                    "sysId" : "a39d121d666e4110f428893d90ce3a75"
+                  },
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : null,
+                  "targetId" : "ckjyraaijjyaaaaeevddggiihhuaarccggxbr",
+                  "type" : "CLIENT_SCRIPT"
+                } ]
+              }, {
+                "eventMappingId" : "ckjyraaeegffaaaaeesddggiihhhhddrxqnaaaa",
+                "isConfiguration" : false,
+                "offRowStorageId" : null,
+                "sourceEventApiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#PAGINATION_BUTTON_CLICKED",
+                "sourceEventDefinition" : {
+                  "apiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#PAGINATION_BUTTON_CLICKED",
+                  "id" : null,
+                  "type" : "UXEVENT"
+                },
+                "sourceEventSysId" : null,
+                "targets" : [ {
+                  "broker" : null,
+                  "clientScript" : {
+                    "sysId" : "679d121dd46e41107f366c6da0945c76"
+                  },
+                  "declarativeAction" : null,
+                  "event" : null,
+                  "operation" : null,
+                  "targetId" : "ckjyraaeegggaaaaeetddggiihhbbcdtwaaljj",
+                  "type" : "CLIENT_SCRIPT"
+                } ]
+              } ],
+              "slot" : "Main",
+              "definition" : {
+                "id" : "78580cbc090d816f232d10e954f6dc74",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : ""
+              },
+              "isNonDestructive" : false,
+              "styles" : {
+                "padding-right" : "1rem"
+              }
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "items" : [{"slotName":"Sidebar 1","rules":{"grid-area":"sidebar1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+                "root" : null,
+                "rules" : {"grid-template-rows":"auto","grid-template-columns":"4fr 8fr","grid-template-areas":"\"sidebar1 main\"","grid-gap":"1rem","height":"100%"},
+                "styles" : null,
+                "templateId" : "7579b58153071010e6bcddeeff7b1290",
+                "type" : "grid"
+              }
+            }
+          },
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "width" : "100%"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Sidebar 1","rules":{"grid-area":"sidebar1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Sidebar 2","rules":{"grid-area":"sidebar2"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr minmax(300px, 6fr) 1fr","grid-template-areas":"\"sidebar1 main sidebar2\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "6da9358153071010e6bcddeeff7b1287",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "0cac8b3073ad101052c7d5fdbdf6a78a",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "search_evam_data_resource_1",
+  "elementLabel" : "Search EVAM Data Resource 1",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckjyqyhuoaaaaeehhddggiihhscccgvssk",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "e79d121dbd6e41108fba9cd8baa42577"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckjyqyhupaaaaeeiiddggiihhmvnlsiivb",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
+    "eventMappingId" : "ckjyqxqccjjaaaaeeffddggiihhvujzggdeeo",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_INITIATED",
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_INITIATED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+        "payload" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "propName" : "loading",
+            "value" : true
+          }
+        },
+        "sysId" : "32408b42ff7a10109046e490703bf176"
+      },
+      "operation" : null,
+      "targetId" : "ckjyqxqccaaaaaeeggddggiihhykxqwaaeeff",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "inputValues" : {
+    "searchEvamConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchEvamDefinitionId" ],
+        "category" : "app"
+      }
+    },
+    "searchContextConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchContextConfigId" ],
+        "category" : "props"
+      }
+    },
+    "searchTerm" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchTerm" ],
+        "category" : "props"
+      }
+    },
+    "facetFilters" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "facetFilters" ],
+        "category" : "props"
+      }
+    },
+    "searchFilters" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchFilters" ],
+        "category" : "props"
+      }
+    },
+    "disableSpellCheck" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "paginationToken" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "paginationToken" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "af9d121d876e41108c46ca280cbb3555",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "pr_search_evam_transform_1",
+  "elementLabel" : "PR Search EVAM Transform 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "search_evam_data_resource_1" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "search_evam_data_resource_1", "searchResultsTemplates" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "239d121d876e41108c46ca280cbb3556",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "search_genius_transform_1",
+  "elementLabel" : "Search genius Transform 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "search_genius_transform_1" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "search_evam_data_resource_1", "geniusResultsTemplates" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","background-color":"#F7F6F4"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>search</name>
+        <props>[ {
+  "name" : "facetFilters",
+  "label" : "facetFilters",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "searchFilters",
+  "label" : "searchFilters",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "disableSpellCheck",
+  "label" : "disableSpellCheck",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "paginationToken",
+  "label" : "paginationToken",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "searchContextConfigId",
+  "label" : "searchContextConfigId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "searchTerm",
+  "label" : "searchTerm",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[{"message":"Filters","comment":""},{"message":"Search","comment":""},{"message":"Home","comment":""},{"message":"search","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "searchTerm",
+  "label" : "searchTerm",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "CONTEXT_BINDING",
+    "binding" : {
+      "address" : [ "searchTerm" ],
+      "category" : "props"
+    }
+  }
+}, {
+  "name" : "loading",
+  "label" : "loading",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:57</sys_created_on>
+        <sys_id>6f9d121db86e4110113ff43215d25578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>search</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6f9d121db86e4110113ff43215d25578</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:57</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Review schedule">eb9d121d316e4110bb5c8629c7b59477</macroponent>
+        <name>Date Picker - Save Date Value</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    var fieldNameNew = '';
+    switch(api.state.date_field){
+        case "start_date_button":
+            fieldNameNew = 'start_new_val';
+            break;
+        case "ee_prompt_button":
+            fieldNameNew = 'ee_prompt_new_val';
+            break;
+        case "notify_date_button":
+            fieldNameNew = 'notify_new_val';
+            break;
+        case "deadline_button":
+            fieldNameNew = 'deadline_new_val';
+            break; 
+        case "end_date_button":
+            fieldNameNew = 'end_new_val';
+            break;    
+    }
+    api.setState(fieldNameNew, api.state.date_picker_new_value);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:08</sys_created_on>
+        <sys_id>e79d121db56e4110003dffc8b2d57f74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Date Picker - Save Date Value</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_client_script_e79d121db56e4110003dffc8b2d57f74</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:08</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

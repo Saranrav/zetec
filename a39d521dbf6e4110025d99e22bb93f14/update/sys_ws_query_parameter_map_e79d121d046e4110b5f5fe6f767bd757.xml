@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter_map">
+    <sys_ws_query_parameter_map action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ws_query_parameter_map</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:39</sys_created_on>
+        <sys_id>e79d121d046e4110b5f5fe6f767bd757</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ab9d121d786e4110586f669388487f57</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_map_e79d121d046e4110b5f5fe6f767bd757</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:39</sys_updated_on>
+        <web_service_operation display_value="Pull Properties">2b9d121d5f6e41106378118808112f57</web_service_operation>
+        <web_service_query_parameter display_value="property_name">ab9d121d786e4110586f669388487f57</web_service_query_parameter>
+    </sys_ws_query_parameter_map>
+</record_update>

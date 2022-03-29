@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notification settings" section_id="af9d121d076e4110fb3b8b1636babca0" sys_domain="global" table="x_742047_zetec_performance_review" version="3" view="settings_x_742047_zetec">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>af9d121de46e41100c8821e56b9bcd8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review_process_schedule</element>
+            <position>1</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>eb9d121d326e4110fa67a323b24bd78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>ab9d121d056e4110656b5bc8ff2e038f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>6f9d121d4e6e4110b28e68fb4370618f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>note</element>
+            <position>4</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>2f9d121d8d6e41101703d1a119e9b18f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>e79d121d186e4110f862d053623f018f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_prompt_self_review</element>
+            <position>6</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>a79d121d856e4110c49e8f2b5d94ed8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>evaluation_due</element>
+            <position>7</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>2b9d121dc46e4110348f56fe303ec48f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notify_if_manager_isn_t_specified</element>
+            <position>8</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>679d121df26e411001a32c29bd79918f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>6b9d121d676e4110aaa295425a6cc08f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notify_reminder</element>
+            <position>10</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>a39d121d126e4110a3f24345ceeca58f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>11</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>e39d121d906e4110122132ba8d2a6f8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title_empty_notify</element>
+            <position>12</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>279d121dc06e41103c1ca7f291d2398f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_id>639d121dee6e41104f86a1bdda8e5b8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification settings" display_value="Notification settings" name="x_742047_zetec_performance_review" sys_domain="global" view="239d121d366e4110f50afc121eb7d6a1">af9d121d076e4110fb3b8b1636babca0</sys_ui_section>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notification settings</caption>
+            <header>false</header>
+            <name>x_742047_zetec_performance_review</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aes.creator</sys_created_by>
+            <sys_created_on>2022-03-29 11:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af9d121d076e4110fb3b8b1636babca0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_742047_zetec_performance_review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+            <sys_update_name>sys_ui_section_af9d121d076e4110fb3b8b1636babca0</sys_update_name>
+            <sys_updated_by>aes.creator</sys_updated_by>
+            <sys_updated_on>2022-03-29 11:02:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Edit Settings (x_742047_zetec )" name="settings_x_742047_zetec">239d121d366e4110f50afc121eb7d6a1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

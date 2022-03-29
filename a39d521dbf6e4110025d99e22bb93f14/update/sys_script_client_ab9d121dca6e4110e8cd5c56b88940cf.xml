@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>review_process_schedule</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Edit Settings: Schedule Change</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var schedule = g_form.getValue('review_process_schedule');
+
+    if (schedule != '0') {
+        var ga = new GlideAjax('x_742047_zetec.PRUtils_AJAX');
+        ga.addParam('sysparm_name', 'getEndDate');
+        ga.addParam('sysparm_start_date', g_form.getValue('review_period_start_date'));
+        ga.addParam('sysparm_frequency', g_form.getValue('review_process_schedule'));
+        ga.getXMLAnswer(updateEndDate);
+    } else {
+        g_form.setValue('end_date', '');
+    }
+
+    function updateEndDate(answer) {
+        g_form.setValue('end_date', answer);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab9d121dca6e4110e8cd5c56b88940cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit Settings: Schedule Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_script_client_ab9d121dca6e4110e8cd5c56b88940cf</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:41</sys_updated_on>
+        <table>x_742047_zetec_performance_review</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view>settings_x_742047_zetec</view>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code/>
+        <commented_message/>
+        <key>review_frequency.6</key>
+        <language>a39d121d876e41108c46ca280cbb3555</language>
+        <message>Set the schedule for the first evaluation of the year, and the system will repeat your schedule again in 6 months.</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:03</sys_created_on>
+        <sys_id>279d121da96e4110894604ff5109989c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>review_frequency.6</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ui_message_279d121da96e4110894604ff5109989c</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:03</sys_updated_on>
+    </sys_ui_message>
+</record_update>

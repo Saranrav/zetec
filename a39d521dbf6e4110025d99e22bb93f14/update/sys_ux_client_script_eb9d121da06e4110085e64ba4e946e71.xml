@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>58d17acf0b531010a8b1c96237673a68</includes>
+        <macroponent display_value="Record">2f9d121d826e411002fb3069e67d428d</macroponent>
+        <name>previewRecordRouteMapping</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+    // Bypass dynamic routing for non "record" pages
+    if (event.payload.route && event.payload.route !== 'record') {
+        api.emit('NAV_ITEM_SELECTED', event.payload);
+        return;
+    }
+
+    const {
+        routeMapping,
+        buildDefaultRoutePayload
+    } = imports["global.recordRoutesMapping"]();
+
+    var route = 'record';
+    var targetRoute = 'current';
+    const domainId = api.state.domainId;
+    const defaultRoutePayload = buildDefaultRoutePayload(route, targetRoute, event, domainId);
+    
+    const routeMap = api.data.dynamic_routing_record.routeMap;
+    const payload = routeMapping(routeMap, defaultRoutePayload, event, domainId);
+
+    const {
+        emit
+    } = api;
+    emit('NAV_ITEM_SELECTED', payload);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:02:37</sys_created_on>
+        <sys_id>eb9d121da06e4110085e64ba4e946e71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>previewRecordRouteMapping</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_ux_client_script_eb9d121da06e4110085e64ba4e946e71</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:02:37</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

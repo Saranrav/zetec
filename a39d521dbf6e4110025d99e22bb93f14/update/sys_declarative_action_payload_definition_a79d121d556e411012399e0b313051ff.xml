@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>UPDATE_REQUESTED_PR</action_key>
+        <applicable_to>360935e9534723003eddddeeff7b127d</applicable_to>
+        <description/>
+        <label>Updated Requested PR</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_a79d121d556e411012399e0b313051ff</payload_field_table>
+        <payload_template>{&#13;
+  "sysId" : "{{sysId}}"&#13;
+}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:22</sys_created_on>
+        <sys_id>a79d121d556e411012399e0b313051ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Updated Requested PR</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_a79d121d556e411012399e0b313051ff</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:22</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

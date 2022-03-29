@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2022-03-29 11:01:57</sys_created_on>
+        <sys_id>ab9d121dd16e4110a7a66e7cd0ce6bc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e39d121d876e41108c46ca280cbb3556.</sys_name>
+        <sys_package display_value="zetec" source="x_742047_zetec">a39d521dbf6e4110025d99e22bb93f14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="zetec">a39d521dbf6e4110025d99e22bb93f14</sys_scope>
+        <sys_security_acl display_value="e39d121d876e41108c46ca280cbb3556">6b9d121d436e411006a1d856321f6fca</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ab9d121dd16e4110a7a66e7cd0ce6bc8</sys_update_name>
+        <sys_updated_by>aes.creator</sys_updated_by>
+        <sys_updated_on>2022-03-29 11:01:57</sys_updated_on>
+        <sys_user_role display_value="x_742047_zetec.employee" name="x_742047_zetec.employee">eb9d521df36e4110708a31f9302d9113</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
